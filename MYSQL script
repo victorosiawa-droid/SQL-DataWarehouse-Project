@@ -1,4 +1,20 @@
 
+/*
+
+====================================
+DATA WAREHOUSE SETUP SCRIPT
+====================================
+
+PURPOSE:
+Builds a MySQL data warehouse with star schema design for 
+business intelligence and analytical reporting.
+
+Components:
+- Bronze: Staging area for raw data
+- Silver : Transformed and cleaned data
+-Gold: Final dimensional model
+
+*/
 
 -- Initializing database.SQL
 CREATE DATABASE DataWarehouse;
