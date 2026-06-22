@@ -1,1 +1,10 @@
 
+
+-- Initializing database.SQL
+CREATE DATABASE DataWarehouse;
+show databases;
+USE DataWarehouse;
+-- now we can start creating our schema
+CREATE SCHEMA bronze;
+CREATE SCHEMA silver;
+CREATE SCHEMA gold;
